@@ -12,10 +12,10 @@ function init(player, against){
     let this_player = player.man;
 
     const xImage = new Image();
-    xImage.src = "img/X.png";
+    xImage.src = "X.png";
 
     const oImage = new Image();
-    oImage.src = "img/O.png";
+    oImage.src = "O.png";
 
     const possibilities = [
         [0, 1, 2],
